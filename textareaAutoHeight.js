@@ -15,3 +15,20 @@ $(function(){
     }                
     $('textarea[autoheight]').autoheight();    
 })
+
+
+//第二种方法
+
+/*function readyNumber() { 
+
+  $('textarea').each(function () {
+     this.setAttribute('style', 'height:' + (this.scrollHeight) + 'px;overflow-y:hidden;');
+  }).on('input', function () {
+  this.style.height = 'auto';
+  this.style.height = (this.scrollHeight) + 'px';
+  })
+}
+
+readyNumber()*/
+
+
