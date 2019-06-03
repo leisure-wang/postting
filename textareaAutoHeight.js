@@ -15,7 +15,7 @@ $(function(){
     }                
     $('textarea[autoheight]').autoheight();    
 })
-var a = 1;
+var a = 2;
 //第二种方法
 
 /*function readyNumber() { 
